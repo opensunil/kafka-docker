@@ -4,8 +4,8 @@ alias dexec='sudo docker exec -u kafka -it kafka bash'
 alias dexecr='sudo docker exec -u root -it kafka bash'
 alias dps='sudo docker ps -a'
 alias dimages='sudo docker images'
-alias dbuildp='sudo docker build -t kafkapre:latest ~/kafka/prereq'
-alias dbuild='sudo docker build -t kafkarm:latest ~/kafka/install'
+alias dbuildp='sudo docker build -t kafkapre:latest ~/kafka-docker/prereq'
+alias dbuild='sudo docker build -t kafkarm:latest ~/kafka-docker/install'
 alias drm='dstop || true && sudo docker image rm kafkarm'
 
 echo
